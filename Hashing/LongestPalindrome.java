@@ -1,3 +1,4 @@
+package Hashing;
 import java.util.HashMap;
 public class LongestPalindrome {
     // https://leetcode.com/problems/longest-palindrome/description/?envType=problem-list-v2&envId=hash-table
