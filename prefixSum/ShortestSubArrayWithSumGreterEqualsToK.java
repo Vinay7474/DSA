@@ -1,8 +1,8 @@
 // https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=prefix-sum
 // leetcode 209
-package Hashing;
+package prefixSum;
 
-public class LongestSubArrayWithSumGreterEqualsToK {
+public class ShortestSubArrayWithSumGreterEqualsToK {
     public int minSubArrayLen(int k, int[] arr) {
         // here i used prefix sum and sliding window to slove this problem 
         // first i find the prefix sum and in that check each index is equals to the given target in that case , i returned 1 as the minn length sum array (which is not a optimised solution)
@@ -47,5 +47,24 @@ public class LongestSubArrayWithSumGreterEqualsToK {
     // after i solved this question i compared with others solutions 
     // and i finally got another idea 
     // i dont need to maintain the prefix sum array i just need to use only the two pointers
-    
+    // here is the solution
+    // public int minSubArrayLen(int target, int[] nums) {
+    //     int n = nums.length;
+    //     int ans = n+1;
+    //     int i = 0;
+    //     int j = 0;
+    //     int sum = 0;
+
+    //     while(j< n){
+    //         sum += nums[j];
+
+    //         while(sum >= target && i <= j){
+    //             ans =Math.min(ans,j-i+1);
+    //             sum -= nums[i];
+    //             i++;
+    //         }
+    //         j++;
+    //     }
+    //     return (ans == (n+1))?0:ans;
+    // }
 }
