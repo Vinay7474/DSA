@@ -1,5 +1,6 @@
 package Graphs;
-
+// https://leetcode.com/problems/number-of-islands/
+// https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1
 import java.util.LinkedList;
 import java.util.Queue;
 
