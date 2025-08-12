@@ -14,6 +14,7 @@ public class Longest_Substring_with_K_Uniques {
 // Explanation: The longest substring with exactly 3 distinct characters is "cbebebe", which includes 'c', 'b', and 'e'.
 // Input: s = "aaaa", k = 2
 // Output: -1
+
 // Explanation: There's no substring with 2 distinct characters.
 // Input: s = "aabaaab", k = 2
 // Output: 7
