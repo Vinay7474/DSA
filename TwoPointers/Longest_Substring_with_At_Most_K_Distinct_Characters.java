@@ -1,7 +1,7 @@
 package TwoPointers;
 
 import java.util.HashMap;
-
+// https://www.naukri.com/code360/problems/distinct-characters_2221410?leftPanelTabValue=PROBLEM
 public class Longest_Substring_with_At_Most_K_Distinct_Characters {
 //     Problem statement
 // You are given a string 'str' and an integer ‘K’. Your task is to find the length of the largest substring with at most ‘K’ distinct characters.
@@ -41,6 +41,7 @@ public class Longest_Substring_with_At_Most_K_Distinct_Characters {
 // Sample Output 2:
 // 8   
 // 1   
+// solution:-------------------------------------------------------------------------------------
 public static int kDistinctChars(int k, String s) {
 		// Write your code here
 		HashMap<Character, Integer> map = new HashMap<>();
