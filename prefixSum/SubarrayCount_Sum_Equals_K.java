@@ -1,5 +1,6 @@
 package prefixSum;
 // https://leetcode.com/problems/subarray-sum-equals-k/
+// https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1
 import java.util.HashMap;
 
 public class SubarrayCount_Sum_Equals_K {
