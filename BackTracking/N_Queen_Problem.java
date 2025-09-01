@@ -3,7 +3,8 @@ package BackTracking;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-
+// https://www.geeksforgeeks.org/problems/n-queen-problem0315/1
+// https://leetcode.com/problems/n-queens/
 public class N_Queen_Problem {
 // The n-queens puzzle is the problem of placing n queens on a (n × n) chessboard such that no two queens can attack each other. Note that two queens attack each other if they are placed on the same row, the same column, or the same diagonal.
 
