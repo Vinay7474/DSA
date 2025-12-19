@@ -43,4 +43,12 @@ public class Longest_Subarray_with_Sum_K {
         
         
     }
+    // When you encounter a problem involving "Subarray Sums," 
+    // you should visualize the array as a series of accumulating totals.
+    // 1. The Goal EquationThink of the problem as:
+    // CurrentSum - PreviousSum = k
+    // To find a subarray that equals k,
+    //  you simply rearrange that math:
+    // PreviousSum = CurrentSum - k
+    // This tells you exactly what to search for in your HashMap.
 }
