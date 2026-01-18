@@ -1,18 +1,18 @@
 # Kadane’s Algorithm
 
-## 📌 Problem Statement
+##  Problem Statement
 Given an integer array `arr` (which may contain both positive and negative numbers), find the **maximum sum of a contiguous subarray**.
 
 ---
 
-## 🧠 What is Kadane’s Algorithm?
+##  What is Kadane’s Algorithm?
 Kadane’s Algorithm is a **dynamic programming technique** used to solve the **Maximum Subarray Sum** problem efficiently.
 
 Instead of checking all possible subarrays (which would take O(n²) or O(n³) time), Kadane’s Algorithm solves the problem in **linear time O(n)**.
 
 ---
 
-## 🔑 Core Idea
+##  Core Idea
 At every index, we decide:
 - Whether to **extend the previous subarray**, or
 - **Start a new subarray** from the current element.
@@ -21,14 +21,14 @@ If the running sum becomes negative, it is discarded because it cannot help in f
 
 ---
 
-## 🧮 Algorithm Logic
+##  Algorithm Logic
 For each element `arr[i]`:
 current_sum = max(arr[i], current_sum + arr[i])
 max_sum = max(max_sum, current_sum)
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input
 arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
@@ -43,7 +43,7 @@ The subarray `[4, -1, 2, 1]` gives the maximum sum:
 
 ---
 
-## 📊 Step-by-Step Execution
+##  Step-by-Step Execution
 
 | Index | Element | Current Sum | Maximum Sum |
 |------|--------|-------------|-------------|
@@ -59,7 +59,7 @@ The subarray `[4, -1, 2, 1]` gives the maximum sum:
 
 ---
 
-## 🧾 Pseudocode
+##  Pseudocode
 max_sum = arr[0]
 current_sum = arr[0]
 
@@ -71,7 +71,7 @@ return max_sum
 
 ---
 
-## 💻 Implementation
+##  Implementation
 
 ### Java Implementation
 ```java
@@ -94,6 +94,8 @@ public class KadaneAlgorithm {
     }
 }
 
+
+---
 ### Time and Space Complexity
 
 Time Complexity: O(n)
