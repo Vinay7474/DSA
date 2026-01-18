@@ -96,7 +96,8 @@ public class KadaneAlgorithm {
 
 
 ---
-### Time and Space Complexity
+
+## Time and Space Complexity
 
 Time Complexity: O(n)
 
